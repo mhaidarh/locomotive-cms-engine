@@ -1,18 +1,29 @@
 HaiDokter Engine with LocomotiveCMS Engine
 ==========================================
 
-## Installation
+Installation
+-----------
 
 1. Install Ruby 2.2.2
 2. `gem install bundler rake`
 3. `gem install rails --version=3.2.21`
+
+Usage
+-----
+
 4. `bundle install` or in the future `bundle update`
 5. `bundle exec puma` instead of `bundle exec unicorn_rails`
 6. Open `localhost:9292` instead of 'localhost:8080'
 
-## Log
+### Alternatives
 
-It should show like this:
+5. `bundle exec rails serve` instead of ``bundle exec puma``
+6. Open `localhost:3000` instead of `localhost:9292`
+
+Running Log
+----------
+
+It should show log like this:
 
 ```
 $ bundle exec puma 
@@ -30,9 +41,10 @@ Digest::Digest is deprecated; use Digest
 Use Ctrl-C to stop
 ```
 
-## Skip this
+Notes
+-----
 
-Skip this since this has been performed in this repo:
+Skip these since this has been performed in this repo:
 
 1. `bundle exec rails g locomotive:install`
 2. Edit `config/mongoid.yml`

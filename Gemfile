@@ -8,6 +8,7 @@ gem 'rails', '3.2.21'
 
 #gem 'locomotive_cms', '~> 2.5.6', :require => 'locomotive/engine'
 gem 'locomotive_cms', require: 'locomotive/engine', git: 'https://github.com/locomotivecms/engine.git', ref: 'v2.5.x'
+gem 'locomotivecms_liquid_extensions', github: 'locomotivecms/liquid_extensions', branch: 'hosting'
 
 # Gems used only for assets and not required
 # in production environments by default.

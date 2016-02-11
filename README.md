@@ -1,5 +1,5 @@
-HaiDokter Engine with LocomotiveCMS Engine
-==========================================
+Media Platform with LocomotiveCMS Engine
+========================================
 
 Installation
 -----------
